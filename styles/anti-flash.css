@@ -1,0 +1,3 @@
+
+/* Anti-flash background guard for Safari/Telegram iOS and Windows */
+html, body, #__next { background: #070f1f !important; }

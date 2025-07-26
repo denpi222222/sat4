@@ -1,0 +1,6 @@
+html {
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  scroll-behavior: smooth;
+}
+h1, h2, h3, h4 { letter-spacing: -0.02em; }
+.prose p { line-height: 1.7; color: rgb(var(--color-muted)); }

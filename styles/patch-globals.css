@@ -1,0 +1,10 @@
+/* базовый фон, чтобы не было "чёрного" кадра */
+html, body, #__next { background:#070f1f; min-height:100%; }
+.cc-page-fade { animation: ccFadeIn .14s ease-out both; }
+@keyframes ccFadeIn { from { opacity:.88 } to { opacity:1 } }
+
+/* лёгкое упрощение fx на мелких экранах, но не отключение */
+@media (max-width: 520px) {
+  .fx-heart, .fx-fire, .fx-ash, .fx-coins { filter: saturate(0.95) brightness(0.98); }
+  .fx-coins { transform: translateZ(0); will-change: transform; }
+}

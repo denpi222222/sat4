@@ -1,0 +1,39 @@
+:root {
+  --color-bg:        18 18 22;
+  --color-card:      26 26 33;
+  --color-foreground: 236 236 241;
+  --color-muted:     136 136 150;
+  --color-border:    255 255 255 / 0.06;
+  --color-primary:   99 102 241;
+  --color-primary-600: 79 70 229;
+  --color-danger:    239 68 68;
+  --color-success:   16 185 129;
+
+  --radius-sm: .375rem;
+  --radius:    .75rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 2rem;
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.06);
+  --shadow:    0 4px 24px rgba(0,0,0,.12);
+  --shadow-lg: 0 10px 40px rgba(0,0,0,.2);
+
+  --spring-stiffness: 280;
+  --spring-damping:   28;
+  --spring-mass:      .9;
+  --timing-fast:      .15s;
+  --timing-normal:    .25s;
+  --timing-slow:      .4s;
+}
+
+.dark {
+  --color-bg:        10 10 12;
+  --color-card:      18 18 22;
+  --color-foreground: 235 235 240;
+  --color-muted:     150 150 165;
+  --color-border:    255 255 255 / 0.05;
+  --color-primary:   99 102 241;
+  --color-primary-600: 79 70 229;
+}
+
+* { -webkit-tap-highlight-color: transparent; }
